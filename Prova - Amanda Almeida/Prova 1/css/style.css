@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Barbie;
+    src: url('/fonte/Barbie.otf');
+}
+
+body{
+    background: linear-gradient(#f8bad9,#FF69B4,#5a213e);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#barbie{
+    width: 200px;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 20px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 45px;
+}
+
+.texto{
+    font-family: Barbie;
+    gap: 20px;
+}
+
+.botoes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+button{
+    width: 100px;
+    color: black;
+    background:#f8bad9 ;
+    box-shadow: 4px 5px 10px black;
+    border: none;
+    border-radius: 15px;
+    font-family: barbie;
+    font-size: 17px;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: background 0.3 ease;
+}
+
